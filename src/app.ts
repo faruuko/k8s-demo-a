@@ -39,7 +39,7 @@ app.get("/route-c", async (_req, res) => {
 
 app.listen(1001).on("error", (e) => {
   console.error(
-    "An error occured while starting the server, please check the logs for more details.",
+    "An error occured while starting the server, please check the logs for more details...",
     e
   );
   process.exit(1);
